@@ -9,3 +9,7 @@ echo My version of Vim is:
 vim --version | grep Vi
 echo Do I have a .bashrc file?
 ls -a ~/ | grep bashrc
+echo My operating system is:
+uname -a
+echo My path variable is:
+echo $PATH
